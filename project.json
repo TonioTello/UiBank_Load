@@ -1,0 +1,187 @@
+{
+  "name": "UiBank Loan Academy",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[20.4.0-beta.889657]",
+    "UiPath.Testing.Activities": "[1.0.0-beta.887571]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]",
+    "UiPath.UIAutomationNext.Activities": "[20.4.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.48403607",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "97f6af08-9e81-4197-afbd-ec2c4dd76b5b",
+        "fileName": "Test Cases\\High Volume Loan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f3bb2543-8711-4acc-a491-e5d695522800",
+        "fileName": "Test Cases\\Long Loan Term.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "11ede70a-9255-4fcb-968d-d58fd0b6c637",
+        "fileName": "Test Cases\\Mid Term Loan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ffb7b3ee-6689-432d-a019-4bda644f8bde",
+        "fileName": "Test Cases\\Medium Volume Loan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "25eb6218-9b84-49af-bdf7-965609932873",
+        "dataVariationFilePath": ".variations\\Loan Quotes_Loan Quotes.json",
+        "fileName": "Test Cases\\Data-Driven Loan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1449f64c-f651-47e4-95b3-4776b6284a85",
+        "fileName": "Test Cases\\Small Volume Loan.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Test Cases\\High Volume Loan.xaml",
+      "uniqueId": "97f6af08-9e81-4197-afbd-ec2c4dd76b5b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test Cases\\Long Loan Term.xaml",
+      "uniqueId": "f3bb2543-8711-4acc-a491-e5d695522800",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test Cases\\Mid Term Loan.xaml",
+      "uniqueId": "11ede70a-9255-4fcb-968d-d58fd0b6c637",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test Cases\\Medium Volume Loan.xaml",
+      "uniqueId": "ffb7b3ee-6689-432d-a019-4bda644f8bde",
+      "input": [
+        {
+          "name": "LoanEmail",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "LoanAmount",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "LoanTerm",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "LoanIncome",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "LoanAge",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    },
+    {
+      "filePath": "Test Cases\\Data-Driven Loan.xaml",
+      "uniqueId": "25eb6218-9b84-49af-bdf7-965609932873",
+      "input": [
+        {
+          "name": "LoanEmail",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "LoanAmount",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "LoanTerm",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "LoanIncome",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "LoanAge",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "LoanGranted",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "LoanRate",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "Message",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    },
+    {
+      "filePath": "Test Cases\\Small Volume Loan.xaml",
+      "uniqueId": "1449f64c-f651-47e4-95b3-4776b6284a85",
+      "input": [],
+      "output": []
+    }
+  ]
+}
